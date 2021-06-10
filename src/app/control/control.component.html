@@ -98,7 +98,7 @@
       <div class="control-jog-arrows__vertical" *ngIf="showExtruder">
         <div class="control-jog-arrows__vertical-wrapper">
           <fa-icon
-            [icon]="['fas', 'angle-up']"
+            [icon]="['fas', 'undo-alt']"
             class="control__icon control__icon-5"
             (click)="extrude('-')"
             matRipple
@@ -106,7 +106,7 @@
             [matRippleCentered]="true"
           ></fa-icon>
           <fa-icon
-            [icon]="['fas', 'angle-down']"
+            [icon]="['fas', 'redo-alt']"
             class="control__icon control__icon-6"
             (click)="extrude('+')"
             matRipple
